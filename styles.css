@@ -1,3 +1,52 @@
 body{
-    background-color: antiquewhite;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.header{
+    max-width: 1600px;
+    max-height: 760px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A0B2E;
+    align-items: center;
+    max-width: auto;
+    height: 92px;
+}
+.logo{
+    max-width: 220px;
+    max-height: 32px;
+    
+}
+.nav-item{
+    display: flex;
+    gap:35px;
+    font-size:16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(
+    25deg,
+      #F7E93F 0%,
+      #FB09B4 51%,
+      #9100F8 100%
+  );
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#hero-bg {
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 760px;
 }
