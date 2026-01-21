@@ -19,13 +19,19 @@ body{
     max-width: 220px;
     max-height: 32px;
     
+    
 }
 .nav-item{
     display: flex;
     gap:35px;
     font-size:16px;
     font-weight: 500;
-    color: #FFFFFF;
+    list-style: none;
+}
+.nav-item a{
+  text-decoration: none;
+  color: #FFFFFF;
+
 }
 .btn {
   display: inline-flex;
@@ -46,8 +52,35 @@ body{
 }
 #hero-bg {
     background-image: url(./assets/hero-bg.png);
-    background-size: cover;
     background-position: center;
     width: auto;
     height: 760px;
 }
+.circle-align{
+  position: relative;
+  top: 100px;
+  left:617px;
+}
+.child-b{
+  position: absolute;
+  top: 12px;
+  left: 252px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1A0B2E;
+  padding: 8px 16px;
+  border-radius: 30px;
+  background-color: #00FF88;
+}
+.child-c{
+  position: absolute;
+  top: 77px;
+  left: 116px;
+
+}
+.header{
+  font-size: 60px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
