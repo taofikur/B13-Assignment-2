@@ -170,7 +170,7 @@ div hr{
 .card{
   padding: 30px;
   border-radius: 20px;
-  background-color: #35116536;
+  background-color: #35116553;
 }
 .headphone{
   grid-column: span 1;
@@ -211,7 +211,7 @@ div hr{
 }
 .vtc{
   background-color: #250D44;
-  border-radius: 15px;
+  border-radius: 20px;
   
 }
 .vtc-title{
@@ -243,4 +243,92 @@ div hr{
 .lim img{
   width: 17px;
   height: 17px;
+}
+.hinfo{
+  background-color: #1A0B2E;
+  width: 1600px;
+  padding-bottom: 120px;
+}
+.hinfo-bg{
+  background-color: #250D44;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+.h-align{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.mw{
+  width: 200px;
+  height: 200px;
+  margin: 40px 24px 40px 40px;
+}
+.h-title{
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.hinfo-p{
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 60%;
+}
+.flexicon{
+  display: flex;
+  gap: 8px;
+  padding-top: 26px;
+}
+.iconb { 
+  border: 2px solid #533C72;
+  border-radius: 25px;
+  padding: 10px;
+}
+.footer{
+  width: 1600px;
+  height: 412px;
+  background-color: #1A0B2E;
+  background-image: url(./assets/footer-bg.png);
+}
+.footer-logo{
+  width: 410px;
+  height: 60px;
+  margin: 0 auto;
+  padding-top:120px;
+}
+.slinks{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 92px;
+  
+  
+}
+.s-items{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500px;
+  opacity:60%;
+}
+.img-title-c{
+  display: inline-flex;
+  gap:8px;
+}
+.img-title-c img{
+  width: 24px;
+  height: 24px;
+}
+.copyright{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FAFAFA;
+  opacity: 60%;
+  text-align: center;
+  padding-top: 32px;
 }
