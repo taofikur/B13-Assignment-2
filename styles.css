@@ -40,6 +40,7 @@ body {
   align-items: center;
   gap: 5px;
   padding: 12px 18px;
+  font-size: 16px;
   font-weight: 600;
   color: white;
   background: linear-gradient(
@@ -61,7 +62,6 @@ body {
   background-size: cover;
   text-align: center;
   color: white;
-  position: relative;
 }
 
 .circle-align {
@@ -97,14 +97,68 @@ body {
 
 .hero-text {
   max-width: 600px;
-  margin: 0px auto;
+  margin: 0px auto 24px;
   font-size: 16px;
   color: #FFFFFF;
   opacity: 80%;
 }
 
-.btn-c {
+.btn-c{
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 10px;
 }
+.btn-s{
+  background: none;
+  color: #00FF88;
+  border:#00FF88 solid 2px;
+}
+.bg-b{
+  background-color: #1A0B2E;
+}
+.podcast-s{
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #FFFFFF;
+
+}
+.podcast-s h1{
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.podcast-s p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 80%;
+}
+div hr{
+  border: none;
+  border: 1px solid rgba(128, 0, 128, 0.386);
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.p-flex{
+  width: 1200px;
+  display:flex;
+  margin: 0 auto;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top:80px;
+  
+  
+}
+.pr-h{
+  font-size: 48px;
+  font-weight: 900;
+  color: #00FF88;
+}
+.pr-p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+   
