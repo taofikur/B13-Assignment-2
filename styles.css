@@ -1,22 +1,25 @@
 *{
-  overflow-x:hidden ;
+  overflow-x: hidden;
 }
 body {
   font-family: "Inter", sans-serif;
-  margin: 0;
+   font-optical-sizing: auto;
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 80px;
+  padding: 0 100px;
+  width: 1600px;
   height: 92px;
   background-color: #1A0B2E;
+  border: 1px solid rgba(148, 0, 211, 0.626);
 }
 
 .logo {
   max-width: 220px;
+  max-height: auto;
 }
 
 .nav-item {
@@ -35,7 +38,7 @@ body {
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   padding: 12px 18px;
   font-weight: 600;
   color: white;
@@ -51,6 +54,7 @@ body {
 }
 
 #hero-bg {
+  width: 1600px;
   height: 760px;
   background-image: url(./assets/hero-bg.png);
   background-position: center;
