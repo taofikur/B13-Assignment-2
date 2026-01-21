@@ -89,16 +89,18 @@ body {
 }
 
 .hero-title {
-  margin-top: 60px;
+  padding-top: 30px;
+  color: #FFFFFF;
   font-size: 60px;
   font-weight: 800;
 }
 
 .hero-text {
   max-width: 600px;
-  margin: 16px auto 32px;
+  margin: 0px auto;
   font-size: 16px;
-  opacity: 0.9;
+  color: #FFFFFF;
+  opacity: 80%;
 }
 
 .btn-c {
