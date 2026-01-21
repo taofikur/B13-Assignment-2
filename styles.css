@@ -1,6 +1,3 @@
-*{
-  overflow-x: hidden;
-}
 body {
   font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
@@ -114,19 +111,20 @@ body {
   border:#00FF88 solid 2px;
 }
 .bg-b{
+  width: 1600px;
   background-color: #1A0B2E;
 }
 .podcast-s{
   width: 900px;
   margin: 0 auto;
-  margin-top: 20px;
   color: #FFFFFF;
 
 }
-.podcast-s h1{
+.title{
   font-size: 48px;
   font-weight: 700;
   text-align: center;
+  color: #FFFFFF;
 }
 .podcast-s p{
   text-align: center;
@@ -148,6 +146,7 @@ div hr{
   justify-content: center;
   justify-content: space-evenly;
   padding-top:80px;
+  padding-bottom: 120px;
   
   
 }
@@ -161,4 +160,87 @@ div hr{
   font-weight: 400;
   color: #FFFFFF;
 }
-   
+.c-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px 200px 120px 200px;
+}
+.card{
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #35116536;
+}
+.headphone{
+  grid-column: span 1;
+ grid-row: span 2;
+ padding: 107px 40px;
+}
+.device{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.location{
+  grid-column: span 2;
+  grid-row:  span 1;
+}
+.zap-fast{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.cs{
+  width: 1600px;
+  background-color: #230E3D;
+}
+.cs-h{
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.cs-p{
+  font-size:16px;
+  font-weight: 400;
+  opacity: 60%;
+  color: #FFFFFF;
+}
+.bgc{
+  width: 1600px;
+  background-color: #1A0B2E;
+
+}
+.vtc{
+  background-color: #250D44;
+  border-radius: 15px;
+  
+}
+.vtc-title{
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.vtc-p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 60%;
+  padding: 12px 24px 12px 24px;
+}
+.lim{
+  display:flex; 
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #00FF88;
+  padding: 24px;
+}
+.lim img{
+  width: 17px;
+  height: 17px;
+}
