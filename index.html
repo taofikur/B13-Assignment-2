@@ -7,48 +7,50 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles.css">
-<style>
+
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
     </style>
-    
+</head>
+
 <body>
-    <header>
-        <nav class="nav-container">
-            <img class="logo ml-[200px]" src="./assets/Logo.png" alt="">
-            <ul class="nav-item">
-                <li><a href="">About</a></li>
-                <li><a href="">Episodes</a></li>
-                <li><a href="">Host</a></li>
-            </ul>
-            <button class="btn mr-[240px]">Subscribe
-                <span><img src="./assets/ArrowRight.svg" alt=""></span>
-            </button>
-        </nav>
-        <section id="hero-bg">
-                
-                    <div class="circle-align">
-                    <img src="./assets/hero-circle.png" alt="">
+<header>
+    <nav class="nav-container">
+        <img class="logo" src="./assets/Logo.png" alt="Logo">
 
-                    <div class="child-b">
-                        <h2>NEW</h2>
-                    </div>
+        <ul class="nav-item">
+            <li><a href="">About</a></li>
+            <li><a href="">Episodes</a></li>
+            <li><a href="">Host</a></li>
+        </ul>
 
-                    <div class="child-c" >
-                        <img src="./assets/microphone.png" alt="">
-                    </div>
-                </div>
+        <button class="btn">
+            Subscribe
+            <span><img src="./assets/ArrowRight.svg" alt=""></span>
+        </button>
+    </nav>
 
-                <div>
-                    <h1 class="header">TechWave</h1>
-                    <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                </div>
-                <div class="btn-c">
-                    <button class="btn">Listen On Spotify</button>
-                    <button class="btn">Subscribe</button>
-                </div>
+    <section id="hero-bg">
+        <div class="circle-align">
+            <img src="./assets/hero-circle.png" alt="Circle">
 
-        </section>
-    
-    </header>
+            <div class="child-b">NEW</div>
+
+            <div class="child-c">
+                <img src="./assets/microphone.png" alt="Mic">
+            </div>
+        </div>
+
+        <h1 class="hero-title">TechWave</h1>
+        <p class="hero-text">
+            Your daily dose of tech insights, productivity hacks, and personal growth
+        </p>
+
+        <div class="btn-c">
+            <button class="btn">Listen On Spotify</button>
+            <button class="btn">Subscribe</button>
+        </div>
+    </section>
+</header>
 </body>
 </html>
