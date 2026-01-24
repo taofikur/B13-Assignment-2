@@ -351,7 +351,6 @@ div hr{
 @media screen and (max-width:576px) {
   .nav-container{
     width: 100%;
-    max-width: 576px;
     padding: 20px;
     height: 60px;
   }
@@ -371,13 +370,12 @@ div hr{
   }
   #hero-bg{
     width: 100%;
-    max-width: 576px;
     height: 466px;
   }
   .circle-align{
   position: relative;
   top: 15%;
-  left: 25%;
+  left: 23%;
 
   }
   .circle{
@@ -427,6 +425,15 @@ div hr{
   line-height: 20px;
   letter-spacing: 0%;
   color: #FFFFFF;
+  }
+  .einfo{
+  margin-top: 10px;
+  }
+  .p-flex{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
   }
 
 }
