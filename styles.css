@@ -1,17 +1,23 @@
 body {
-  font-family: "Inter", sans-serif;
+   font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
+   width: 100%;
+   max-width: 1600px;
 }
+
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
-  width: 1600px;
+  width: 100%;
   height: 92px;
   background-color: #1A0B2E;
   border: 1px solid rgba(148, 0, 211, 0.626);
+}
+.hamburger{
+  display: none;
 }
 
 .logo {
@@ -50,9 +56,15 @@ body {
   border-radius: 30px;
   cursor: pointer;
 }
+.btn:hover{
+ transform: rotate(360deg);
+ background-color: white;
+ transition: transform 2s ease 0s, background-color 2s ease 0s ;
+
+}
 
 #hero-bg {
-  width: 1600px;
+  width: 100%;
   height: 760px;
   background-image: url(./assets/hero-bg.png);
   background-position: center;
@@ -64,7 +76,7 @@ body {
 .circle-align {
   position: relative;
   top: 101px;
-  left: 625px;
+  left: 620px;
 }
 
 .child-b {
@@ -111,7 +123,7 @@ body {
   border:#00FF88 solid 2px;
 }
 .bg-b{
-  width: 1600px;
+  width: 100%;
   background-color: #1A0B2E;
 }
 .podcast-s{
@@ -126,11 +138,15 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
+.einfo{
+  margin-top: 40px;
+}
 .podcast-s p{
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   opacity: 80%;
+  line-height: 30px;  
 }
 div hr{
   border: none;
@@ -190,7 +206,7 @@ div hr{
   grid-row: span 1;
 }
 .cs{
-  width: 1600px;
+  width: 100%;
   background-color: #230E3D;
 }
 .cs-h{
@@ -205,7 +221,7 @@ div hr{
   color: #FFFFFF;
 }
 .bgc{
-  width: 1600px;
+  width: 100%;
   background-color: #1A0B2E;
 
 }
@@ -246,7 +262,7 @@ div hr{
 }
 .hinfo{
   background-color: #1A0B2E;
-  width: 1600px;
+  width: 100%;
   padding-bottom: 120px;
 }
 .hinfo-bg{
@@ -290,7 +306,7 @@ div hr{
   padding: 10px;
 }
 .footer{
-  width: 1600px;
+  width: 100%;
   height: 412px;
   background-color: #1A0B2E;
   background-image: url(./assets/footer-bg.png);
@@ -331,4 +347,86 @@ div hr{
   opacity: 60%;
   text-align: center;
   padding-top: 32px;
+}
+@media screen and (max-width:576px) {
+  .nav-container{
+    width: 100%;
+    max-width: 576px;
+    padding: 20px;
+    height: 60px;
+  }
+  .logo{
+    max-width: 140px;
+    margin: 0;
+  }
+  .nav-item{
+    display: none;
+  }
+  .btn-n{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    padding: 18px 20px;
+  }
+  #hero-bg{
+    width: 100%;
+    max-width: 576px;
+    height: 466px;
+  }
+  .circle-align{
+  position: relative;
+  top: 15%;
+  left: 25%;
+
+  }
+  .circle{
+    width: 220px;
+    height: 220px;
+  }
+  .child-b{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+  }
+  .mic-c{
+    width: 80px;
+    height: 100px;
+  }
+  .child-c{
+    position: absolute;
+    left: 70px;
+    top: 60px;
+  }
+  .title-h{
+    width: 400px;
+    height: 162px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .btn-c{
+    padding: 24px;
+  }
+  .btn-l{
+    display:flex;
+  }
+  .btn-s{
+    display: flex;
+  }
+  .podcast-s{
+    width: 400px;
+    height: 207px;
+    padding-top: 100px;
+  }
+  .tt-p{
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .title p{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  }
+
 }
